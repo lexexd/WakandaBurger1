@@ -1,0 +1,42 @@
+{
+
+
+  "project_info": {
+    "project_number": "733497155365",
+    "firebase_url": "https://wakandaburger-ab9ac.firebaseio.com",
+    "project_id": "wakandaburger-ab9ac",
+    "storage_bucket": "wakandaburger-ab9ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733497155365:android:121c286a9932e8d71c84cc",
+        "android_client_info": {
+          "package_name": "com.example.wakandaburger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733497155365-f4285l8mg5r3namnq0ptui70oo5lndhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKl_Yt1gNnavVObmC24kUReBUA6eQTghw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733497155365-f4285l8mg5r3namnq0ptui70oo5lndhj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
