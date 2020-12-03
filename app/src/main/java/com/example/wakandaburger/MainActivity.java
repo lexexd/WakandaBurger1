@@ -21,7 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Activity_main extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     private EditText mEditTextName;
     private EditText mEditTextEmail;
@@ -42,7 +42,7 @@ public class Activity_main extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main_activity);
         mEditTextName= findViewById(R.id.editTextName);
         mEditTextEmail= findViewById(R.id.editTextEmail);
         mEditTextPassword= findViewById(R.id.editTextPassword);
@@ -63,7 +63,7 @@ public class Activity_main extends AppCompatActivity {
                     registerUser();
                 }
                 else{
-                    Toast.makeText(Activity_main.this, "la contraseña debe tener al menos 6 digitos", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "la contraseña debe tener al menos 6 digitos", Toast.LENGTH_SHORT).show();
                 }
 
 
@@ -91,12 +91,12 @@ if (task.isSuccessful()){
 
 if(task.isSuccessful()){
 
-    startActivity(new Intent(Activity_main.this, Profileactivity.class));
+    startActivity(new Intent(MainActivity.this, Profileactivity.class));
     finish();
 
 }else {
-    startActivity(new Intent(Activity_main.this, Profileactivity.class));
-    Toast.makeText(Activity_main.this,"No se pudo completar el registro", Toast.LENGTH_SHORT).show();
+    startActivity(new Intent(MainActivity.this, Profileactivity.class));
+    Toast.makeText(MainActivity.this,"No se pudo completar el registro", Toast.LENGTH_SHORT).show();
 finish();
 }
 

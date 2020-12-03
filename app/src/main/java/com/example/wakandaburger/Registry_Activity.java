@@ -42,7 +42,7 @@ class Registry_Activity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main_activity);
         mEditTextName= (EditText) findViewById(R.id.editTextName);
         mEditTextEmail= (EditText) findViewById(R.id.editTextEmail);
         mEditTextPassword= (EditText) findViewById(R.id.editTextPassword);

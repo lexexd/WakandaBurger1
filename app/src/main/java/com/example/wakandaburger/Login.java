@@ -1,7 +1,6 @@
 package com.example.wakandaburger;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +12,6 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-import java.security.PrivateKey;
 import java.util.Arrays;
 import java.util.List;
 
@@ -30,7 +28,7 @@ public class Login extends Registry_Activity {
     @Override
     protected void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main_activity);
 
         mfirebaseAutH = FirebaseAuth.getInstance();
         mAutListener = new FirebaseAuth.AuthStateListener() {
